@@ -54,7 +54,7 @@ class CalculatorLogic {
         return;
     }
     _display = result.isNaN
-        ? 'Error'
+        ? 'Error :p'
         : (result == result.roundToDouble()
             ? result.toInt().toString()
             : result.toString());
@@ -68,7 +68,7 @@ class CalculatorLogic {
   }
 
   /// C — borra un solo dígito
-  void clearEntry() {
+  void clearC() {
     if (_display.length <= 1) {
       _display = '0';
       _newNumber = true;

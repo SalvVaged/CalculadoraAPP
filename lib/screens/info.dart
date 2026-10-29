@@ -28,13 +28,13 @@ class InfoScreen extends StatelessWidget {
               SizedBox(height: 16),
               Text(
                 'Ricardo Noriega',
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 8),
-              Text('Alumno de Programación 3', style: TextStyle(fontSize: 16)),
+              Text('Alumno de Programación 3', style: TextStyle(fontSize: 20)),
               SizedBox(height: 16),
               Text(
-                'Proyecto: Calculadora hecha con Flutter\nAño 2026',
+                'Proyecto: Calculadora hecha con Flutter\nAño 2026', style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.center,
               ),
               SizedBox(height: 26,),

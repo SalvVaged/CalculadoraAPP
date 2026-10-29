@@ -10,7 +10,7 @@ class CalculadorApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Calculadora',
+      title: 'Calculadora - Evaluación',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,

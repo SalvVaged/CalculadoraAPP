@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     CalcButton(
                       label: 'C',
                       color: Colors.orange.shade200,
-                      onTap: () => _refresh(_logic.clearEntry),
+                      onTap: () => _refresh(_logic.clearC),
                     ),
                     CalcButton(
                       label: '÷',
