@@ -8,6 +8,7 @@ class InfoScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Información'),
+        centerTitle: true,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () => Navigator.pop(context),
@@ -18,7 +19,7 @@ class InfoScreen extends StatelessWidget {
           padding: const EdgeInsets.all(24),
           child: Column(
             mainAxisSize: MainAxisSize.min,
-            children: const [
+            children: [
               CircleAvatar(
                 radius: 50,
                 backgroundColor: Color.fromARGB(255, 62, 79, 177),
@@ -36,6 +37,13 @@ class InfoScreen extends StatelessWidget {
                 'Proyecto: Calculadora hecha con Flutter\nAño 2026',
                 textAlign: TextAlign.center,
               ),
+              SizedBox(height: 26,),
+              Image.asset(
+                'assets/images/Teto.png', 
+                width: 80,
+                height: 80,
+                fit: BoxFit.cover,
+              )
             ],
           ),
         ),
