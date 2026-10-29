@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter (Opera GX)",
+      "request": "launch",
+      "type": "dart",
+      "args": ["-d", "edge"],
+      "env": {
+        "EDGE_EXECUTABLE": "${env:LOCALAPPDATA}C:\\Users\\Salv\\AppData\\Local\\Programs\\Opera GX"
+      }
+    }
+  ]
+}
